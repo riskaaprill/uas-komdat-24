@@ -1,0 +1,36 @@
+    1  sudo su
+    2  mkdr latihan-git
+    3  mkdir latihan-git
+    4  cd latihan-git
+    5  sudo install gh
+    6  sudo apt install gh
+    7  gh --version
+    8  sudo apt install gdebi-core wget
+    9  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   10  sudo gdebi google-chrome-stable_current_amd64.deb
+   11  google-chrome
+   12  sudo apt install gh
+   13  gh auth login
+   14  wsl version
+   15  wsl --version
+   16  wsl --v
+   17  git --v
+   18  code .
+   19  git --version
+   20  nvm --version
+   21  sudo apt install curl
+   22  curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+   23  source ~/.bashrc
+   24  nvm --version
+   25  nvm install v14.15.4
+   26  node -v
+   27  git clone https://github.com/misterpotabi/projek-uas-komdat uas-komdat-24
+   28  ls
+   29  cd uas-komdat-24
+   30  ls -a
+   31  sudo rm -r .git
+   32  ls -a
+   33  code .
+   34  npm install
+   35  npm run start
+   36  history > command-history.txt
